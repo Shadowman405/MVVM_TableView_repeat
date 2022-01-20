@@ -77,9 +77,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlW-h8-afZ">
-                                <rect key="frame" x="186" y="158" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlW-h8-afZ">
+                                <rect key="frame" x="20" y="108" width="374" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -87,6 +86,11 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2P9-cc-lgg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vlW-h8-afZ" firstAttribute="leading" secondItem="2P9-cc-lgg" secondAttribute="leading" constant="20" id="36a-ZU-0j0"/>
+                            <constraint firstItem="vlW-h8-afZ" firstAttribute="top" secondItem="2P9-cc-lgg" secondAttribute="top" constant="20" id="Ef9-DN-VCR"/>
+                            <constraint firstItem="2P9-cc-lgg" firstAttribute="trailing" secondItem="vlW-h8-afZ" secondAttribute="trailing" constant="20" id="vsh-lB-BhM"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="89b-nF-yV4"/>
                     <connections>
