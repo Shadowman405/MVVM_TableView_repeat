@@ -19,6 +19,9 @@
 		BF811EBD2799DD67002B31D4 /* TableViewViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF811EBC2799DD67002B31D4 /* TableViewViewModelType.swift */; };
 		BF811EC12799E0D3002B31D4 /* TableViewCellViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF811EC02799E0D3002B31D4 /* TableViewCellViewModelType.swift */; };
 		BF811EC32799E1D9002B31D4 /* TableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF811EC22799E1D9002B31D4 /* TableViewCellViewModel.swift */; };
+		BF811EC52799F124002B31D4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF811EC42799F124002B31D4 /* DetailViewController.swift */; };
+		BF811EC72799F1B5002B31D4 /* DetailViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF811EC62799F1B5002B31D4 /* DetailViewModelType.swift */; };
+		BF811EC92799F1FE002B31D4 /* DetialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF811EC82799F1FE002B31D4 /* DetialViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		BF811EBC2799DD67002B31D4 /* TableViewViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewViewModelType.swift; sourceTree = "<group>"; };
 		BF811EC02799E0D3002B31D4 /* TableViewCellViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModelType.swift; sourceTree = "<group>"; };
 		BF811EC22799E1D9002B31D4 /* TableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModel.swift; sourceTree = "<group>"; };
+		BF811EC42799F124002B31D4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BF811EC62799F1B5002B31D4 /* DetailViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelType.swift; sourceTree = "<group>"; };
+		BF811EC82799F1FE002B31D4 /* DetialViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetialViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,7 @@
 			children = (
 				BF811EB22798A210002B31D4 /* TableViewController.swift */,
 				BF811EB62798A3C3002B31D4 /* TableViewCell.swift */,
+				BF811EC42799F124002B31D4 /* DetailViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -104,6 +111,7 @@
 			children = (
 				BF811EBA2799DCCA002B31D4 /* VIewModel.swift */,
 				BF811EC22799E1D9002B31D4 /* TableViewCellViewModel.swift */,
+				BF811EC82799F1FE002B31D4 /* DetialViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -113,6 +121,7 @@
 			children = (
 				BF811EBC2799DD67002B31D4 /* TableViewViewModelType.swift */,
 				BF811EC02799E0D3002B31D4 /* TableViewCellViewModelType.swift */,
+				BF811EC62799F1B5002B31D4 /* DetailViewModelType.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -194,8 +203,11 @@
 				BF811EBD2799DD67002B31D4 /* TableViewViewModelType.swift in Sources */,
 				BF811EC12799E0D3002B31D4 /* TableViewCellViewModelType.swift in Sources */,
 				BF811EC32799E1D9002B31D4 /* TableViewCellViewModel.swift in Sources */,
+				BF811EC52799F124002B31D4 /* DetailViewController.swift in Sources */,
 				BF811EBB2799DCCA002B31D4 /* VIewModel.swift in Sources */,
+				BF811EC72799F1B5002B31D4 /* DetailViewModelType.swift in Sources */,
 				BF811EA12798A1A4002B31D4 /* SceneDelegate.swift in Sources */,
+				BF811EC92799F1FE002B31D4 /* DetialViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
