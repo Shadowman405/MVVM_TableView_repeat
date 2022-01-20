@@ -15,6 +15,8 @@
 		BF811EB32798A210002B31D4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF811EB22798A210002B31D4 /* TableViewController.swift */; };
 		BF811EB52798A257002B31D4 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF811EB42798A257002B31D4 /* Profile.swift */; };
 		BF811EB72798A3C3002B31D4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF811EB62798A3C3002B31D4 /* TableViewCell.swift */; };
+		BF811EBB2799DCCA002B31D4 /* VIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF811EBA2799DCCA002B31D4 /* VIewModel.swift */; };
+		BF811EBD2799DD67002B31D4 /* TableViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF811EBC2799DD67002B31D4 /* TableViewModelType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		BF811EB22798A210002B31D4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		BF811EB42798A257002B31D4 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		BF811EB62798A3C3002B31D4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BF811EBA2799DCCA002B31D4 /* VIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIewModel.swift; sourceTree = "<group>"; };
+		BF811EBC2799DD67002B31D4 /* TableViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModelType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +66,8 @@
 			children = (
 				BF811E9E2798A1A4002B31D4 /* AppDelegate.swift */,
 				BF811EA02798A1A4002B31D4 /* SceneDelegate.swift */,
-				BF811EB22798A210002B31D4 /* TableViewController.swift */,
+				BF811EBF2799DE0D002B31D4 /* Protocols */,
+				BF811EBE2799DE02002B31D4 /* ViewModel */,
 				BF811EB92798A473002B31D4 /* View */,
 				BF811EB82798A465002B31D4 /* Model */,
 				BF811EA42798A1A4002B31D4 /* Main.storyboard */,
@@ -84,9 +89,26 @@
 		BF811EB92798A473002B31D4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BF811EB22798A210002B31D4 /* TableViewController.swift */,
 				BF811EB62798A3C3002B31D4 /* TableViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BF811EBE2799DE02002B31D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BF811EBA2799DCCA002B31D4 /* VIewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BF811EBF2799DE0D002B31D4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BF811EBC2799DD67002B31D4 /* TableViewModelType.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +185,8 @@
 				BF811E9F2798A1A4002B31D4 /* AppDelegate.swift in Sources */,
 				BF811EB52798A257002B31D4 /* Profile.swift in Sources */,
 				BF811EB32798A210002B31D4 /* TableViewController.swift in Sources */,
+				BF811EBD2799DD67002B31D4 /* TableViewModelType.swift in Sources */,
+				BF811EBB2799DCCA002B31D4 /* VIewModel.swift in Sources */,
 				BF811EA12798A1A4002B31D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
