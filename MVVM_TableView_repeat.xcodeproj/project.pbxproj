@@ -22,6 +22,7 @@
 		BF811EC52799F124002B31D4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF811EC42799F124002B31D4 /* DetailViewController.swift */; };
 		BF811EC72799F1B5002B31D4 /* DetailViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF811EC62799F1B5002B31D4 /* DetailViewModelType.swift */; };
 		BF811EC92799F1FE002B31D4 /* DetialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF811EC82799F1FE002B31D4 /* DetialViewModel.swift */; };
+		BF811ECB279B3110002B31D4 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF811ECA279B3110002B31D4 /* Box.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		BF811EC42799F124002B31D4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		BF811EC62799F1B5002B31D4 /* DetailViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelType.swift; sourceTree = "<group>"; };
 		BF811EC82799F1FE002B31D4 /* DetialViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetialViewModel.swift; sourceTree = "<group>"; };
+		BF811ECA279B3110002B31D4 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				BF811E9E2798A1A4002B31D4 /* AppDelegate.swift */,
+				BF811ECA279B3110002B31D4 /* Box.swift */,
 				BF811EA02798A1A4002B31D4 /* SceneDelegate.swift */,
 				BF811EBF2799DE0D002B31D4 /* Protocols */,
 				BF811EBE2799DE02002B31D4 /* ViewModel */,
@@ -202,6 +205,7 @@
 				BF811EB32798A210002B31D4 /* TableViewController.swift in Sources */,
 				BF811EBD2799DD67002B31D4 /* TableViewViewModelType.swift in Sources */,
 				BF811EC12799E0D3002B31D4 /* TableViewCellViewModelType.swift in Sources */,
+				BF811ECB279B3110002B31D4 /* Box.swift in Sources */,
 				BF811EC32799E1D9002B31D4 /* TableViewCellViewModel.swift in Sources */,
 				BF811EC52799F124002B31D4 /* DetailViewController.swift in Sources */,
 				BF811EBB2799DCCA002B31D4 /* VIewModel.swift in Sources */,
