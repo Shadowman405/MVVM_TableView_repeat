@@ -13,6 +13,15 @@ class DetailViewController: UIViewController{
     
     var viewModel: DetailViewModelType?
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        viewModel?.age.bind{ [unowned self] in
+            guard let string = $0 else {return}
+            self.textLabel.text = string
+        }
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
